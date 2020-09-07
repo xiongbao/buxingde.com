@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="theme-color" content="#f26469" id="themeColor">
+	<title>不幸的</title>
+	<link rel="icon" type="image/png" href="./assets/img/favicon.png">
+	<link rel="apple-touch-icon" type="image/png" href="./assets/img/logo.png">
+	<link rel="icon" type="image/png" sizes="144x144" href="./assets/img/favicon.png">
+	<link rel="manifest" href="./manifest.json">
+	<meta name=keywords content="">
+	<meta name=description content="每个人都有自己的不幸，我选择将它分享。">
+<style>
+@font-face {
+  font-family: 'title';
+  src: url('assets/font/MFJunYa.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html,body {
+	margin: 0;
+	height: 100%;
+	background-color: #fff;
+}
+
+body {
+	font-family: -apple-system,sans-serif;
+	background-image: url(assets/img/praying-boy2.png);
+	background-size: auto 90vh;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	color: #03081a;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.logo {
+	font-family: "title";
+	font-weight: normal;
+	font-size: 7.5vw;
+	display: flex;
+	align-items: flex-end;
+	padding-left: 10vw;
+}
+.logo .ico {
+	width: 10vw;
+	height: 10vw;
+	background-image: url(./assets/img/praying.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media screen and (orientation: portrait) {
+	body {
+		align-items: center;
+		justify-content: flex-end;
+		background-size: cover;
+		background-position: 50% 100%;
+	}
+	.logo {
+		padding: 0;
+		font-size: 15vw;
+	}
+	.logo .ico {
+		width: 20vw;
+		height: 20vw;
+	}
+}
+</style>
+</head>
+<body>
+	<h1 class="logo">
+		<i class="ico"></i>
+		<span class="txt">不幸的</span>
+	</h1>
+</body>
+</html>

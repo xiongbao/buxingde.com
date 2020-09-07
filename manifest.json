@@ -1,0 +1,16 @@
+{
+    "name": "不幸的",
+    "short_name": "不幸的",
+    "display": "standalone",
+    "orientation": "any",
+    "start_url": ".",
+    "background_color": "#ffffff",
+    "theme_color": "#f26469",
+    "icons": [
+        {
+            "src": "/assets/img/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
